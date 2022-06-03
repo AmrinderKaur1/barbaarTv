@@ -1,5 +1,5 @@
 nav {
-    margin: 16px 0 0 0;
+    /* margin: 16px 0 0 0; */
     padding: 0 calc(5%);
     display: flex;
     justify-content: space-between;
@@ -30,10 +30,10 @@ ul {
 .login {
     background-color: #EC408A;
     border: 0;
-    padding: 10px;
-    
-letter-spacing: 0px;
-color: #FFFFFF;
+    padding: 6px;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
 }
 
 .header-home {
@@ -42,8 +42,8 @@ color: #FFFFFF;
     height: 83vh;
     position: relative;
     background-repeat:no-repeat;
-background-size:contain;
-background-position:center;
+    background-size:contain;
+    background-position:center;
 }
 
 .header {
@@ -71,6 +71,7 @@ background-position:center;
 .btns button {
     padding: 10px 14px;
     margin-right: 5px;
+    font: normal normal medium 16px/25px Poppins;
 }
 .pink {
     background-color: #EC408A;
@@ -96,15 +97,6 @@ background-position:center;
 }
 
 
-/* @media (max-width: 1024px) and (min-width: 740px ) {
-    .text-box{ 
-        top: 140px;
-    }
-    p {
-        font-size: 27px;
-    } */
-/* } */
-
 @media (min-width: 740px ) {
     .text-box{ 
         top: 140px;
@@ -119,12 +111,10 @@ background-position:center;
         height: 50vh;
     }
     .text-box {
-        /* Layout Properties */
         position: absolute;
         top: 260px;
         width: 100%;
         background-color: #030423;
-        /* background: transparent linear-gradient(180deg, #03042300 0%, #03042380 27%, #030423D4 51%, #030423F2 71%, #030423 100%) 0% 0% no-repeat padding-box; */
     }
     .text-box p {
         font-size: 27px;
@@ -168,4 +158,93 @@ background-position:center;
         padding-left: 55px;
     }
 
+}
+
+/* popular entertainment section */
+
+.cards-wrapper {
+    display: flex;
+}
+.card {
+    margin: 0.5em;
+    width: calc(100%/6);
+    background-color: #000000;
+    border: none;
+}
+button .carousel-control-prev-icon,  button .carousel-control-next-icon {
+    background-color: black;
+    color: black;
+    height: 60px;
+    width: 40px;
+}
+.entertainment {
+    background-color: #000000;
+}
+.entertainment h1 {
+    color: #ffffff;
+    padding: 10px 0;
+}
+.popular-categories, .Iska-Daawo, .Maxaa-Cusub, .Quraanka, .Education-for-Kids, .Bilan-Bile, .Hees-Carruureedyo {
+    padding: 2% 5%;
+}
+.card img {
+    height: 20vh;
+}
+.card p {
+    /* height: 24px;
+    /* background-color: transparent; */
+    text-align: left;
+    font: normal normal normal 20px/30px Poppins;
+    letter-spacing: 0px;
+    color: #E7428E;
+    opacity: 1;
+    background-color: #000000;
+    margin-bottom: 0;
+}
+
+h1 {
+    font: normal normal normal 24px/35px Poppins;
+}
+
+/* footer  */
+
+.top {
+    background-color: #030423;
+    padding: 16px calc(5%) 16px calc(5%);
+    display: flex;
+}
+.top img {
+    height: 45px;
+}
+.icons {
+    padding: 16px 16px 16px 25px;
+        display: flex;
+}
+.fa-brands {
+    color: white;
+}
+i {
+    margin-right: 16px;
+}
+.top p {
+    color: #ffffff;
+    font: normal normal normal 13px/27px Poppins;
+}
+.col1, .col-2, .col-3, .col-4 {
+    width: calc(100%/4);
+    margin-right: 30px;
+}
+.bottom {
+    background-color: #070934;
+    margin-bottom: 0;
+}
+.bottom p {
+    text-align: left;
+    font: normal normal normal 13px/27px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 12px;
+    text-align: center;
+    margin-bottom: 0;
 }
